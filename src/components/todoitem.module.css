@@ -44,8 +44,8 @@
     }
 
     .item {
-        font-weight: 300px;
-        margin: 10px;
-        padding: 20px;
+        font-weight: 200px;
+        margin: 5px;
+        padding: 10px;
     }
 }

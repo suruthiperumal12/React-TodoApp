@@ -16,9 +16,9 @@ export default function Todoitem({ item, setTodos, todos }) {
   return (
     <div className={styles.itemContainer}>
       <div className={styles.item}>
-        <h2 onClick={() => handleclick(item.name)} className={linethrough}>
+        <p onClick={() => handleclick(item.name)} className={linethrough}>
           {item.name}
-        </h2>
+        </p>
         <span>
           <button
             className={styles.deleteButton}

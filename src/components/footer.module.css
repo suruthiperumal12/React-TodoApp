@@ -19,16 +19,14 @@
 @media screen and (max-width:800px) {
     .footercontainer {
         width: 100%;
-        position: fixed;
-        bottom: 0;
+        padding: 15px;
     }
 
     .itemcontainer {
-        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         font-size: 20px;
 
     }

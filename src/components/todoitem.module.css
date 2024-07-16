@@ -1,12 +1,12 @@
 .itemContainer {
-    width: 500px;
+    width: 450px;
     color: #0d4e47;
     margin: 0 auto;
 }
 
 .item {
     font-weight: 500px;
-    font-size: bold;
+    font-size: 20px;
     margin: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);

@@ -6,11 +6,11 @@
     margin: 0 auto;
     padding: 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width:800px) {
     .list {
         width: 300px;
-
     }
 }

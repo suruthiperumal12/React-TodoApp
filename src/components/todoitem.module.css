@@ -40,11 +40,11 @@
 
 @media screen and (max-width:800px) {
     .itemContainer {
-        width: 250px;
+        width: 300px;
     }
 
     .item {
-        font-weight: 100px;
+        font-weight: normal;
         margin: 10px;
         padding: 20px;
     }

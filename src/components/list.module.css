@@ -10,11 +10,6 @@
 
 @media screen and (max-width:800px) {
     .list {
-        width: 90%;
-        /* Use a percentage for better responsiveness */
-        max-width: 300px;
-        /* Limit max width */
-        margin: 10px auto;
-        /* Add some margin to center */
+        width: 300px;
     }
 }

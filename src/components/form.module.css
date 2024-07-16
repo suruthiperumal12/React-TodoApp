@@ -44,8 +44,6 @@
 
 @media screen and (max-width:800px) {
     .formtodo {
-        width: 90%;
-        max-width: 300px;
-        margin: 10px auto;
+        width: 300px;
     }
 }

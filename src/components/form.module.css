@@ -1,0 +1,49 @@
+.formtodo {
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.formContainer {
+    display: flex;
+}
+
+.modernInput {
+    width: 100%;
+    display: block;
+    border: none;
+    line-height: 2px;
+    color: black;
+    font-size: 16px;
+}
+
+.modernInput:focus {
+    outline: none;
+}
+
+.modernButton {
+    padding: 12px 30px;
+    background: #E0F7FA;
+    color: #00796B;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.modernButton:hover {
+    background: #00796B;
+    color: #E0F7FA;
+}
+
+@media screen and (max-width:800px) {
+    .formtodo {
+        width: 300px;
+    }
+}

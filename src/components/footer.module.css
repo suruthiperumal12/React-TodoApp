@@ -1,0 +1,33 @@
+.footercontainer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: #E0F7FA;
+    color: #064740;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.itemcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width:800px) {
+    .footercontainer {
+        width: 100%;
+    }
+
+    .itemcontainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 20px;
+
+    }
+}

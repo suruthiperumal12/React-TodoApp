@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: #00796B;
+    background-color: #E0F7FA;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:800px) {
+    .header {
+        right: 0;
+        width: 100%;
+    }
+}

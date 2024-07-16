@@ -44,6 +44,11 @@
 
 @media screen and (max-width:800px) {
     .formtodo {
-        width: 300px;
+        width: 400px;
     }
+
+    .modernInput {
+        width: 100%;
+    }
+
 }

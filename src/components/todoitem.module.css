@@ -1,6 +1,7 @@
 .itemContainer {
     width: 450px;
-    color: #0d4e47;
+    /* color: #0d4e47; */
+    color: black;
     margin: 0 auto;
 }
 

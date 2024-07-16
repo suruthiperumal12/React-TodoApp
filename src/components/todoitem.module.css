@@ -41,6 +41,7 @@
 @media screen and (max-width:800px) {
     .itemContainer {
         width: 250px;
+        margin-bottom: 30px;
     }
 
     .item {

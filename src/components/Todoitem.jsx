@@ -1,4 +1,6 @@
 import styles from "./todoitem.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
 export default function Todoitem({ item, setTodos, todos }) {
   function handledelete(item) {
     // console.log(item);
@@ -24,7 +26,7 @@ export default function Todoitem({ item, setTodos, todos }) {
             className={styles.deleteButton}
             onClick={() => handledelete(item)}
           >
-            x
+            <FontAwesomeIcon icon={faTrash} />
           </button>
         </span>
         {/* <hr className={styles.line}></hr> */}

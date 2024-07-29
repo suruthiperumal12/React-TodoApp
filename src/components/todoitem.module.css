@@ -1,5 +1,5 @@
 .itemContainer {
-    width: 480px;
+    width: 450px;
     /* color: #0d4e47; */
     color: black;
     margin: 0 auto;
@@ -43,7 +43,7 @@
 
 @media screen and (max-width:800px) {
     .itemContainer {
-        width: 250px;
+        width: 270px;
     }
 
     .item {

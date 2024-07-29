@@ -21,8 +21,8 @@
     color: gray;
 } */
 
-.deleteButton {
-    margin-left: 2px;
+.modernButton {
+    margin: 2px;
     float: right;
     padding: 8px 12px;
     background: #E0F7FA;

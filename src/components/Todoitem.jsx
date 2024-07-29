@@ -45,17 +45,17 @@ export default function Todoitem({ item, setTodos, todos }) {
         )}
         <span>
           <button
-            className={styles.deleteButton}
+            className={styles.modernButton}
             onClick={() => handledelete(item)}
           >
             <FontAwesomeIcon icon={faTrash} />
           </button>
           {isEditing ? (
-            <button className={styles.deleteButton} onClick={handleSave}>
+            <button className={styles.modernButton} onClick={handleSave}>
               <FontAwesomeIcon icon={faSave} />
             </button>
           ) : (
-            <button className={styles.deleteButton} onClick={handleEdit}>
+            <button className={styles.modernButton} onClick={handleEdit}>
               <FontAwesomeIcon icon={faEdit} />
             </button>
           )}

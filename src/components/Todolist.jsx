@@ -7,12 +7,7 @@ export default function Todolist({ todos, setTodos }) {
   return (
     <div className={styles.list}>
       {sortedTodos.map((item) => (
-        <Todoitem
-          key={item.name}
-          item={item}
-          setTodos={setTodos}
-          todos={todos}
-        />
+        <Todoitem key={item.id} item={item} setTodos={setTodos} todos={todos} />
       ))}
     </div>
   );
